@@ -1,6 +1,6 @@
 'use strict';
-class Question{
-
+class Question
+{
   constructor(question){
     this.question=question;
     this.save();
