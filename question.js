@@ -9,7 +9,7 @@ class Question{
     this.save();
   }
   save(){
-    return this._All;
+    this.constructor._All.push(this);
   }
   static FIND(ID){
         return this.All().filter(function(ID){
