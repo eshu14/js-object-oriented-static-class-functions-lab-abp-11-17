@@ -11,10 +11,10 @@ class Question{
   save(){
     this.constructor._All.push(this);
   }
-  static FIND(ID){
+  static Find(ID){
         return this.All().filter(function(ID){
           return this._All[ID-1];
-        
+
       })
 
   }
