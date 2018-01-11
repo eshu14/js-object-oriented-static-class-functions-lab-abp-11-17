@@ -13,7 +13,7 @@ class Question{
   }
   static FIND(ID){
         return this.All().filter(function(ID){
-        return Question.ID=ID;
+        return this.ID=ID;
       })
 
   }
