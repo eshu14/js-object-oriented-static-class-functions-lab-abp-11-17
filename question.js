@@ -6,12 +6,13 @@ class Question{
   }
   constructor(){
     
+    this.save();
   }
   save(){
-    
+
   }
   static FIND(ID){
-    
+
   }
 }
 Question._All=[];
