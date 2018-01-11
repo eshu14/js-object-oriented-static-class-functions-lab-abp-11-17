@@ -1,5 +1,6 @@
 'use strict';
 class Question{
+  const question;
   constructor(question){
     this.question=question;
     this.save();
