@@ -9,7 +9,7 @@ class Question{
     this.save();
   }
   save(){
-
+    return this._All;
   }
   static FIND(ID){
     return this.ID;
