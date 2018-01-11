@@ -15,9 +15,9 @@ class Question{
         return this.All().filter(function(ID){
         return question.ID=ID;
       })
-    
+
   }
 }
-Question._All=[];
+//Question._All=[];
 //const question = new Question("What's your favorite food?");
 //question.save();
