@@ -5,8 +5,8 @@ class Question{
     return this._All;
   }
   constructor(questions){
-    return questions;
-
+    this.questions=questions;
+    this.save();
   }
   save(){
 
