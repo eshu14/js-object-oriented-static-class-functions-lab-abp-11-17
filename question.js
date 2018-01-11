@@ -4,8 +4,8 @@ class Question{
   {
     return this._All;
   }
-  constructor(questions){
-    this.questions=questions;
+  constructor(question){
+    this.question=question;
     this.save();
   }
   save(){
@@ -13,11 +13,11 @@ class Question{
   }
   static FIND(ID){
         return this.All().filter(function(ID){
-        return question.ID=ID;
+        return Question.ID=ID;
       })
 
   }
 }
 Question._All=[];
-//const question = new Question("What's your favorite food?");
+const question = new Question("What's your favorite food?");
 //question.save();
