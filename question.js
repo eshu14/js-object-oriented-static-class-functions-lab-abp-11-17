@@ -1,8 +1,8 @@
 'use strict';
 class Question{
 
-  constructor(questions){
-    this.question=questions;
+  constructor(question){
+    this.question=question;
     this.save();
   }
   save(){
@@ -14,10 +14,8 @@ class Question{
   }
 
   static Find(ID){
-        return this.All().filter(function(ID){
-          return Question._All[ID-1];
-      })
-  }
+      return this._All[ID-1];
+    }
 }
 Question._All=[];
 /*const question1 = new Question("What's your favorite food?");
